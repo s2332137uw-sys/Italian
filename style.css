@@ -1,0 +1,112 @@
+	 ul {
+      display: flex;                
+      justify-content: center;     
+      list-style: none;            
+      padding: 0;                   
+      margin: 0;
+      background-color: #e0e0e0;    
+    }
+
+    ul li {
+      margin: 0 150px; 
+    }
+
+    ul li a {
+      color: #333;                  
+      text-decoration: none;       
+      padding: 10px 15px;          
+      display: block;               
+    }
+
+    body {
+      background-color: #faf3e0;    
+      color: #333;                  
+      font-family: 'Noto Sans JP', sans-serif; 
+		margin: 0 20px;
+    }
+
+    header {
+      background-color: #e0e0e0;   
+      color: black; 
+		
+    }
+
+    footer {
+      background-color: #333;      
+      color: white;                 
+    }
+
+    .menu-list li {
+      display: flex;              
+      align-items: center;          
+      margin-bottom: 20px;         
+    }
+
+    .menu-list li img.menu-img {
+      width: 100px;                 
+      height: auto;                 
+      border-radius: 8px;           
+      margin-right: 15px;          
+    }
+
+
+section {
+	margin: 10px 0;
+    border: thick groove #e0e0e0;
+}
+
+.two-images {
+  display: flex;
+  gap: 20px;     
+  flex-wrap: wrap; 
+}
+
+.two-images img {
+  width: 48%;    
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .menu-list li {
+      flex: 1 1 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: #fff;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .menu-list img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      background: #f0f0f0;
+    }
+
+    .menu-list strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 1.1rem;
+    }
+
+    .menu-list span {
+      color: #555;
+      font-size: 1rem;
+    }
+
